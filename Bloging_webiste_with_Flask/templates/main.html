@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple starter template for Bootstrap projects">
+    <meta name="author" content="Your Name">
+    <title>Bootstrap Starter Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aRgDhA5BBIlN9poBUscYKfVZHpeRYoRMzGR5DA5Jz9sQj72Oc+K7NVzY+H1tWfX8" crossorigin="anonymous">
+    {% block title %}
+      <title>Main</title>
+    {% endblock %}
+  </head>
+<body>
+  {% block body %}
+    <h1>Main Page</h1>
+  {% endblock %}
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Brand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <h1>Welcome to Bootstrap</h1>
+        <p class="lead">This is a simple starter template for Bootstrap projects. Customize it as needed!</p>
+        <button class="btn btn-primary">Click Me</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-EOpo2zOYKjWpJDaLFdQxr3wof0XdtzK6CdUrXCnI0bZBEnlZ9jwsiVs91KR3E6f3" crossorigin="anonymous"></script>
+</body>
+</html>

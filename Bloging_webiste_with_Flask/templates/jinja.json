@@ -1,0 +1,11 @@
+{
+    "Block Tag": {
+        "prefix": "block",
+        "body": [
+            "{% block ${1:name} %}",
+            "    ${2:content}",
+            "{% endblock %}"
+        ],
+        "description": "Insert a Jinja block tag"
+    }
+}
