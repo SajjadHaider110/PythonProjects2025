@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Neutral text color */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none;
+}
+a:hover {
+    color: #0056b3; /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn-custom:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Custom Container */
+.container-custom {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Media Queries (Responsive Design) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
